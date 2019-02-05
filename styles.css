@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    min-width: 375px;
+    background-color: #E1D7D4;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    font-family: 'Rubik', sans-serif;     
+    font-weight: 700;
+    font-size: 30px;
+    margin: 50px 0 0 0;
+    color: #E34E45;
+}
+.subtext {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+.pagecontainer {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+.tablepickerbox {
+    width: 100%;
+    height:60%;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tablepicker {
+    width: 375px;
+    height: 375px;
+    background-color: white;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.circle {
+    margin: 10px;
+    width: 25%;
+    height: 25%;
+    background-color: #EEE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif; 
+}
+
+.circle:hover {
+    background-color: #ADAAAA;
+    color: #EEE;
+    cursor: pointer;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 900;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.modal-box {
+    background-color: #fefefe;
+    padding: 20px;
+    width: 385px;
+    height: 340px;
+    position: fixed;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+}
+.close {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+    position: relative;
+    top: -23px;
+    left: 13px;
+}
+.close:hover {
+    cursor: pointer;
+}
+.title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    color: #E34E45;
+}
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+    height: 20px;
+}
+button {
+    margin-top: 30px;
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+.tabnum {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* 
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik', sans-serif; */
