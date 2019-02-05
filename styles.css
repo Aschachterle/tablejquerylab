@@ -122,6 +122,9 @@ button {
 .tabnum {
     font-family: 'Roboto Mono', monospace;
 }
+.reserved {
+    background-color: darkgrey;
+}
 
 
 /* 
