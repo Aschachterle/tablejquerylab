@@ -44,12 +44,12 @@ $(document).ready(function() {
 
         $(e.target).append(`
         <div class="popup">
-        Name: ${$(e.target).attr("name")}
-        Phone: ${$(e.target).attr("phone")}
-        People: ${$(e.target).attr("people")}
+        <p>Name: ${$(e.target).attr("name")}</p>
+        <p>Phone: ${$(e.target).attr("phone")}</p>
+        <p>People: ${$(e.target).attr("people")}</p>
         </div>
         `);
-        $(".popup").css("display", "flex");
+        $(".popup").css("display", "block");
     });
     $(document).on("mouseleave", ".reserved", function(e) {
         $(".popup").css("display", "none");

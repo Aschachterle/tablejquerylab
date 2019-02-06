@@ -127,13 +127,15 @@ button {
 }
 .popup {
     position: absolute;
-    width: 100px;
-    height: 70px;
+    height: max-content;
+    width: max-content;
+    padding: 5px;
     background-color: white;
     border-radius: 7px;
     border: 1px solid black;
     display: none;
     color: black;
+    font-size: 12px;
 }
 
 /* 
